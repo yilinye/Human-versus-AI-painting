@@ -1,6 +1,7 @@
 # Human-versus-AI-painting
 
 ## Data
+The human and AI painting datasets used in our reseach can be accessed at https://drive.google.com/drive/folders/1ITG9zLnn2NkK1_PS7B9UBa5DitXrawum?usp=sharing
 
 ## Latent Space Embedding
 Run the code in Latent_Space_Embedding.ipynb to compute and save the high-dimensional embedding and the dimension reduction results for painting images.
@@ -18,7 +19,8 @@ pandas==0.23.4
 Flask==2.1.1
 Pillow==9.1.0
 ```
-### How To Run this Project
+Second
+### How To Run the VIS4AI_Art Project
 
 #### Backend -- Flask
 
