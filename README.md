@@ -9,3 +9,68 @@ Run the code in Latent_Space_Embedding.ipynb to compute and save the high-dimens
 Run the code in Aesthetic_features.ipynb to compute and save the aesthetic features for painting images.
 
 ## Visualization
+First, to visualize latent space overview and aesthetic features, install the code in VIS4AI_Art on local machine; you need to have Anaconda python, Node.js and the following python packages installed to run the code
+```sh
+tensorflow==2.8.0
+numpy==1.21.6
+Flask_Cors==3.0.6
+pandas==0.23.4
+Flask==2.1.1
+Pillow==9.1.0
+```
+### How To Run this Project
+
+#### Backend -- Flask
+
+##### Recommended IDE Setup
+
+[VSCode](https://code.visualstudio.com/) or [Pycharm](https://www.jetbrains.com/pycharm/download/#section=windows) 
+
+##### Enter the Folder
+
+```sh
+cd Backend
+```
+
+##### Compile and Run for Development
+```sh
+set FLASK_APP=app.py
+flask run
+```
+
+#### Frontend -- Vue
+
+##### Recommended IDE Setup
+
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin).
+
+##### Customize configuration
+
+See [Vite Configuration Reference](https://vitejs.dev/config/).
+
+##### Enter the Folder
+
+```sh
+cd Frontend
+```
+
+##### Project Setup
+
+```sh
+npm install
+```
+
+##### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
+```
+
+##### Compile and Minify for Production
+
+```sh
+npm run build
+```
+---
+
+
