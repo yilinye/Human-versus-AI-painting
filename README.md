@@ -9,7 +9,7 @@ Run the code in Latent_Space_Embedding.ipynb to compute and save the high-dimens
 Run the code in Aesthetic_features.ipynb to compute and save the aesthetic features for painting images.
 
 ## Visualization
-First, to visualize latent space overview and aesthetic features, install the code in VIS4AI_Art on local machine; you need to have Anaconda python, Node.js and the following python packages installed to run the code
+First, to visualize latent space overview and aesthetic features, install the project in VIS4AI_Art on local machine; you need to have Anaconda python, Node.js and the following python packages installed to run the code
 ```sh
 tensorflow==2.8.0
 numpy==1.21.6
